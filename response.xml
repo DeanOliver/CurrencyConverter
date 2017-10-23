@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conv>
+<at>2016-11-08T02:14:45+00:00</at>
+<rate>1.239449</rate>
+<from>
+<code>USD</code>
+<name>US Dollar</name>
+<loc>American Samoa, Bonaire, Sint Eustatius And Saba, British Indian Ocean Territory (the), Ecuador, El Salvador, Guam, Haiti, Marshall Islands (the), Micronesia (federated States Of), Northern Mariana Islands (the), Palau, Panama, Puerto Rico, Timor-leste, Turks And Caicos Islands (the), United States Minor Outlying Islands (the), United States Of America (the), Virgin Islands (british), Virgin Islands (u.s.)</loc>
+<amt>1</amt>
+</from>
+<to>
+<code>GBP</code>
+<name>Pound Sterling</name>
+<loc>Guernsey, Isle Of Man, Jersey, United Kingdom Of Great Britain And Northern Ireland (the)</loc>
+<amnt>1.23</amnt>
+</to>
+</conv>

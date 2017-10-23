@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<HTML>
+   <HEAD>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+      <script src="currencies.js"></script>
+      <script src="rate_request.js"></script>
+      <script src="edit_currencies.js"></script>
+      <link rel="stylesheet" type="text/css" href="page_css.css"></link>
+      <TITLE>Exchange Rates</TITLE>
+   </HEAD>
+   <BODY>
+   <div id="wrapper">
+
+   <div id="buttons">
+      <p href="#" id="convert_button">Convert Currency</p>
+      <p href="#" id="action_button">Change Currency</p>
+   </div>
+   
+   <div id="convert_currency">
+     <p class="title">Currency Conversion </p>
+     <div id="conv_section1">
+        <input type="text" id="amount1" value="1.00"/><br>
+        <select id="currency1">
+           <!-- list generated in JQuery.js --> 
+        </select>
+     </div>
+     <div id="conv_section2">
+        <input type="text" id="amount2" value="1.00"><br>
+        <select id="currency2">
+           <!-- list generated in JQuery.js -->
+        </select>
+     </div>
+   </div>
+
+   <div = id="change_currencies">
+      <div id="form">
+            <p class="title">Currency Change</p>
+            <div id="radio_div">
+               <input type="radio" id="post_button">Post</input>
+               <input type="radio" id="put_button">Put</input>
+               <input type="radio" id="delete_button">Delete</input>
+            </div>
+            <p class="sub_titles">Currency Code</p>
+            <input type="text" class="input" id="currency_code" placeholder="Code"/>
+            <div id="currency_name_div">
+               <p class="sub_titles">Currency Name</p>
+               <input type="text" class="input" id="currency_name" placeholder="Name"/>
+            </div>
+            <div id="rate_div">
+               <p class="sub_titles">Rate (&pound=1)</p>
+               <input type="text" class="input" id="rate" placeholder="Rate"/><br>
+            </div>
+            <div id="countries_div">
+               <p class="sub_titles">Countries (comma seperated if 1+)</p>
+               <input type="text" class="input" id="countries" placeholder="Countries"/>
+            </div>
+            <p href="#" id="submit_button">Submit</p>
+      </div>
+      <div id="response">
+         <p>Response Message:</p>
+         <textarea rows="20" cols="40" readonly> Response XML
+         </textarea>
+      </div>
+   </div>
+
+
+   </div>
+ </BODY>
+</HTML>
